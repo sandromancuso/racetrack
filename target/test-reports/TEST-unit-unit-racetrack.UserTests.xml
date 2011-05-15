@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="valtechuks-MacBook-Pro-2.local" name="racetrack.UserTests" tests="2" time="0.184" timestamp="2011-05-15T23:24:27">
+  <properties />
+  <testcase classname="racetrack.UserTests" name="testSimpleContraints" time="0.153" />
+  <testcase classname="racetrack.UserTests" name="testUniqueConstraint" time="0.028" />
+  <system-out><![CDATA[--Output from testSimpleContraints--
+--Output from testUniqueConstraint--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSimpleContraints--
+--Output from testUniqueConstraint--
+]]></system-err>
+</testsuite>

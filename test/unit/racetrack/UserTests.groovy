@@ -21,16 +21,16 @@ class UserTests extends GrailsUnitTestCase {
 		mockDomain(User, [jdoe, admin])
 		
 		def badUser = new User(login:"jdoe")
-		badUser.save
-		assertEquals 2, User.count
+		badUser.save()
+		assertEquals 2, User.count()
 		assertEquals "unique", badUser.errors["login"]
 		
 		def goodUser = new User(login:"good",
 								password:"password",
 								role:"user")
-		goodUser.save
-		assertEquals 3, User.count
-		assertNotNull User.findByLoginAndPassword "good", "password"
+		goodUser.save()
+		assertEquals 3, User.count()
+		assertNotNull User.findByLoginAndPassword("good", "password")
 	}
 	
 }
