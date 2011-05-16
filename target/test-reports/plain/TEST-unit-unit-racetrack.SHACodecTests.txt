@@ -1,0 +1,11 @@
+Testsuite: racetrack.SHACodecTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.103 sec
+------------- Standard Output ---------------
+--Output from testEncode--
+a94a8fe5ccb19ba61c4c0873d391e987982fbbd3
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testEncode--
+------------- ---------------- ---------------
+
+Testcase: testEncode took 0.098 sec

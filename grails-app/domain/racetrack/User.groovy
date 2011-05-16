@@ -18,6 +18,10 @@ class User {
 		role == "admin"
 	}
 	
+	def beforeInsert = {
+		password = password.encodeAsSHA()
+	}
+	
 	String toString() {
 		login
 	}

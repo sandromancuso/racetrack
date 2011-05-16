@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="valtechuks-MacBook-Pro-2.local" name="racetrack.RunnerTests" tests="1" time="0.0070" timestamp="2011-05-15T23:24:26">
+<testsuite errors="0" failures="0" hostname="valtechuks-MacBook-Pro-2.local" name="racetrack.RunnerTests" tests="1" time="0.0070" timestamp="2011-05-16T00:22:21">
   <properties />
-  <testcase classname="racetrack.RunnerTests" name="testSomething" time="0.0030" />
+  <testcase classname="racetrack.RunnerTests" name="testSomething" time="0.0040" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

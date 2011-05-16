@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="valtechuks-MacBook-Pro-2.local" name="racetrack.SHACodecTests" tests="1" time="0.103" timestamp="2011-05-16T00:22:21">
+  <properties />
+  <testcase classname="racetrack.SHACodecTests" name="testEncode" time="0.098" />
+  <system-out><![CDATA[--Output from testEncode--
+a94a8fe5ccb19ba61c4c0873d391e987982fbbd3
+]]></system-out>
+  <system-err><![CDATA[--Output from testEncode--
+]]></system-err>
+</testsuite>

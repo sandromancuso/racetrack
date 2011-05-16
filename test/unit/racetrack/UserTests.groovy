@@ -1,9 +1,20 @@
 package racetrack
 
 import grails.test.*
+import org.codehaus.groovy.grails.plugins.codecs.*
 
 class UserTests extends GrailsUnitTestCase {
 
+	protected void setUp() {
+		super.setUp()
+		String.metaClass.encodeAsBase64 = {->
+			Base64Codec.encode(delegate)
+		}
+		String.metaClass.encodeAsSHA = {->
+			SHACodec.encode(delegate)
+		}
+	}
+	
 	void testSimpleContraints() {
 		mockForConstraintsTests User
 		def user = new User(login:"someone",
@@ -30,7 +41,7 @@ class UserTests extends GrailsUnitTestCase {
 								role:"user")
 		goodUser.save()
 		assertEquals 3, User.count()
-		assertNotNull User.findByLoginAndPassword("good", "password")
+		assertNotNull User.findByLoginAndPassword("good", "password".encodeAsSHA())
 	}
 	
 }

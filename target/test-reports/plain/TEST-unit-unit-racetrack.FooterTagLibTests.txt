@@ -1,5 +1,5 @@
 Testsuite: racetrack.FooterTagLibTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.449 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.444 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
